@@ -21,4 +21,4 @@ client.on("message", async message => {
 });
 
 // Authorize bot login token
-client.login(process.env.APP_TOKEN);
+client.login(process.env.BOT_TOKEN);
