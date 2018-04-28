@@ -1,0 +1,25 @@
+{
+  "name": "monika",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/elijahducote/Monika.git"
+  },
+  "description": "",
+  "keywords": [
+    "discord bot",
+    "node",
+    "node js"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": ">=11.3.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
