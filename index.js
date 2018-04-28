@@ -3,13 +3,7 @@ const client = new Discord.Client();
 const entity = `<@${client.user.id}>`;
 
 client.on("ready", () => {
-  client.user.setPresence({ game:
-  {
-    name: 'you',
-    type: 0
-  },
-    status: 'online'
-  });
+  client.user.setActivity('you', { type: 'WATCHING' });
 });
 
 client.on("message", async message => {
