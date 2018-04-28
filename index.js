@@ -5,10 +5,10 @@ const entity = `<@${client.user.id}>`;
 client.on("ready", () => {
   client.user.setPresence({ game:
   {
-    type: 'WATCHING',
-    name: 'you'
+    name: 'you',
+    type: 'WATCHING'
   },
-    status: 'available'
+    status: 'online'
   });
 });
 
