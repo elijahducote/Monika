@@ -1,5 +1,6 @@
 {
   "name": "monkia",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "http://github.com/elijahducote/Monika.git"
@@ -10,7 +11,7 @@
     "node",
     "node js"
   ],
-  "version": "1.0.0",
+
   "license": "MIT",
   "main": "index.js",
   "scripts": {
